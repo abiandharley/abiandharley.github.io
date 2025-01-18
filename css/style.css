@@ -439,7 +439,7 @@ figure {
 
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
-  font-family: 'icomoon';
+  font-family: 'Satisfy';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -568,8 +568,8 @@ figure {
 }
 
 .heading-section {
-  padding-bottom: 1em;
-  margin-bottom: 3em;
+  padding-bottom: 0em;
+  margin-bottom: 1em;
 }
 
 .heading-section h2 {
@@ -602,7 +602,7 @@ figure {
 }
 
 #fh5co-couple .amp-center {
-  font-size: 60px;
+  font-size: 80px;
   margin-top: 100%;
   color: #f69d9d;
 }
@@ -619,12 +619,12 @@ figure {
 
 #fh5co-countdown .countdown {
   margin-bottom: 0;
-  font-size: 80px;
+  font-size: 100px;
   color: #fff;
 }
 
 #fh5co-countdown .countdown span {
-  margin: 0 30px;
+  margin: 0 10px;
   display: inline-block;
   font-family: "Satisfy", cursive;
 }
@@ -771,6 +771,15 @@ figure {
 
 #fh5co-started .heading-section p {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.circular-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image scales properly inside the circle */
+    display: block; /* Optional: Ensures images align well in their containers */
+    margin: 0 auto; /* Centers the image in its container */
 }
 
 .groom-men img {
