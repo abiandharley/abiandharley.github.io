@@ -52,6 +52,17 @@
 
 		$('#fh5co-page').prepend($clone);
 
+		// click the burger
+		$('.js-fh5co-nav-toggle').on('click', function(){
+
+			if ( $('body').hasClass('fh5co-offcanvas') ) {
+				$('body').removeClass('fh5co-offcanvas');
+			} else {
+				$('body').addClass('fh5co-offcanvas');
+			}
+			// event.preventDefault();
+
+		});
 
 		$('#offcanvas-menu').css('height', $(window).height());
 
