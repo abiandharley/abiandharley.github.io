@@ -173,7 +173,7 @@
 
 	// Document on load.
 
-	$(function(){
+	(function(){
 		mainMenu();
 		parallax();
 		offcanvas();
